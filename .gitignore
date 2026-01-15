@@ -1,0 +1,27 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Variables de entorno (Seguridad)
+.env
+.flaskenv
+
+# Distribución / Paquetes
+dist/
+build/
+*.egg-info/
+
+# Configuración de VS Code (Opcional)
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
